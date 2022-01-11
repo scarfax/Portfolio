@@ -1,0 +1,35 @@
+.cabecalho {
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0;
+}
+
+.cabecalho__titulo {
+  padding: 40px;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 1px 1px #1817174b;
+}
+
+.menu__itens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.menu__itens a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  display: block;
+}
+
+.menu__itens a:hover {
+  font-weight: 600;
+}
