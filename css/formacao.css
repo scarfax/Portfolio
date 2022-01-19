@@ -97,3 +97,31 @@
   color: #8f8f8f;
   flex: 1;
 }
+
+@media (max-width: 820px) {
+  .formacao__container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .formacao__titulo-lateral {
+    color: #ffffff;
+    font-size: 4rem;
+    line-height: 1;
+    max-width: 100ch;
+    margin: 0 auto;
+  }
+  .formacao__texto {
+    font-size: 1.25rem;
+  }
+  .formacao-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .formacao__titulo-lateral {
+    font-size: 3rem;
+  }
+}
