@@ -57,7 +57,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .apresentacao {
     grid-template-columns: 1fr;
     text-align: center;
