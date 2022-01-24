@@ -11,45 +11,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/cabecalho.css" rel="stylesheet">
+    <link href="css/apresentacao.css" rel="stylesheet">
+    <link href="css/experiencia.css" rel="stylesheet">
+    <link href="css/formacao.css" rel="stylesheet">
+    <link href="css/rodape.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header__title">Sérgio Campos Mesquita</h1>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Sérgio Campos Mesquita</h1>
         <nav class="menu">
-            <ul class="menu__container">
-                <li><a class="menu__item" href="#experiencia">Experiência</a></li>
-                <li><a class="menu__item" href="#formacao">Formação</a></li>
-                <li><a class="menu__item" href="#contato">Contato</a></li>
+            <ul class="menu__itens">
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="presentation">
-        <img class="presentation__photo" src="img/foto-sergio.jpg" alt="Foto do Sérgio">
+    <section class="apresentacao">
+        <img class="apresentacao__foto" src="img/foto-sergio.jpg" alt="Foto do Sérgio">
         <div>
-            <h2 class="presentation__skill">Desenvolvedor<br> Front End &<br> Monitoramento</h2>
-            <p class="presentation__locality">Localizado em Uberlândia 🧀</p>
+            <h2 class="apresentacao__habilidade">Desenvolvedor<br> Front End &<br> Monitoramento</h2>
+            <p class="apresentacao__localidade">Localizado em Uberlândia 🧀</p>
         </div>
 
     </section>
 
-    <section id="experiencia" class="experience">
+    <section id="experiencia" class="experiencia">
 
-        <h2 class="experience__side-title">EXPERIÊNCIA</h2>
+        <h2 class="experiencia__titulo-lateral">EXPERIÊNCIA</h2>
         <div>
-            <p class="experience__text">Desenvolvo pequenos projetos utilizando apenas HTML e CSS para aplicativos
+            <p class="experiencia__texto">Desenvolvo pequenos projetos utilizando apenas HTML e CSS para aplicativos
                 web.</p>
 
-            <div class="company">
-                <span class="company__year">2020-22</span>
-                <h3 class="company__title">Zup Innovation</h3>
-                <span class="company__role">Monitoring Analyst</span>
-                <p class="company__text">Analista de monitoramento, atuando em primeiro nível para clientes como Vivo,
+            <div class="empresa">
+                <span class="empresa__ano">2020-22</span>
+                <h3 class="empresa__titulo">Zup Innovation</h3>
+                <span class="empresa__cargo">Monitoring Analyst</span>
+                <p class="empresa__texto">Analista de monitoramento, atuando em primeiro nível para clientes como Vivo,
                     VLI, Claro, Ipiranga, Itaú e Banco Patagonia.</p>
-                <ul class="company__skills">
+                <ul class="empresa__habilidades">
                     <li>Grafana</li>
                     <li>Zabbix</li>
                     <li>Dynatrace</li>
@@ -58,14 +64,14 @@
                 </ul>
             </div>
 
-            <div class="company">
-                <span class="company__year">2007-17</span>
-                <h3 class="company__title">Algar Tech</h3>
-                <span class="company__role ">
+            <div class="empresa">
+                <span class="empresa__ano">2007-17</span>
+                <h3 class="empresa__titulo">Algar Tech</h3>
+                <span class="empresa__cargo">
                     Analista de TI</span>
-                <p class="company__text">Analista de suporte remoto compartilhado para as empresas: Starbucks,
+                <p class="empresa__texto">Analista de suporte remoto compartilhado para as empresas: Starbucks,
                     Construtora Tenda, Louis Dreyfus Group, Duratex S.A., Tricard e Azul Linhas Aéreas.</p>
-                <ul class="company__skills">
+                <ul class="empresa__habilidades">
                     <li>Windows</li>
                     <li>Linux</li>
                     <li>Office</li>
@@ -75,12 +81,12 @@
                 </ul>
             </div>
 
-            <div class="company">
-                <span class="company__year">2005-06</span>
-                <h3 class="company__title">Sonda</h3>
-                <span class="company__role">Analista de Suporte Júnior</span>
-                <p class="company__text">Analista de suporte remoto prestando serviços para Algar Telecom.</p>
-                <ul class="company__skills">
+            <div class="empresa">
+                <span class="empresa__ano">2005-06</span>
+                <h3 class="empresa__titulo">Sonda</h3>
+                <span class="empresa__cargo">Analista de Suporte Júnior</span>
+                <p class="empresa__texto">Analista de suporte remoto prestando serviços para Algar Telecom.</p>
+                <ul class="empresa__habilidades">
                     <li>Windows</li>
                     <li>Linux</li>
                     <li>Office</li>
@@ -90,72 +96,60 @@
         </div>
     </section>
 
-    <section id="formacao" class="formation">
-        <div class="formation__container">
-            <h2 class="formation__side-title">FORMAÇÃO</h2>
+    <section id="formacao" class="formacao">
+        <div class="formacao__container">
+            <h2 class="formacao__titulo-lateral">FORMAÇÃO</h2>
             <div>
-                <p class="formation__text">Atualmente estou cursando <strong class="formation__strong">Análise e
-                        Desenvolvimento de
+                <p class="formacao__texto">Atualmente estou cursando <strong>Análise e Desenvolvimento de
                         Sistemas</strong> na Universidade Estácio.</p>
 
-                <ul class="faculty__list">
-                    <li class="faculty">
-                        <span class="faculty__type">Bacharelado & Licenciatura</span>
-                        <h3 class="faculty__course">História</h3>
-                        <span class="faculty__institution">UFU</span>
+                <ul class="faculdade__lista">
+                    <li class="faculdade">
+                        <span class="faculdade__tipo">Bacharelado & Licenciatura</span>
+                        <h3 class="faculdade__curso">História</h3>
+                        <span class="faculdade__instituicao">UFU</span>
                     </li>
-                    <li class="faculty">
-                        <span class="faculty__type">Tecnólogo</span>
-                        <h3 class="faculty__course">Análise e Desenvolvimento de Sistemas</h3>
-                        <span class="faculty__institution">Estácio</span>
+                    <li class="faculdade">
+                        <span class="faculdade__tipo">Tecnólogo</span>
+                        <h3 class="faculdade__curso">Análise e Desenvolvimento de Sistemas</h3>
+                        <span class="faculdade__instituicao">Estácio de Sá</span>
                     </li>
 
                 </ul>
 
-                <div class="formation__extra">
-                    <div class="courses">
-                        <h3 class="courses__text">Cursos Intensivos</h3>
+                <div class="formacao__extra">
+                    <div class="cursos">
+                        <h3>Cursos Intensivos</h3>
                         <ul>
-                            <li class="courses__type">HTML e CSS para Iniciantes <span>22h</span></li>
-                            <li class="courses__type">Formação Front End<span>170h</span></li>
+                            <li>HTML e CSS para Iniciantes <span>23h</span></li>
+                            <li>Formação Front End<span>170h</span></li>
                         </ul>
                     </div>
-                    <div class="languages">
-                        <h3 class="languages__text">Idiomas</h3>
+                    <div class="idiomas">
+                        <h3>Idiomas</h3>
                         <ul>
-                            <li class="languages__type">Inglês <span class="languages__level"> Intermediário</span></li>
-                            <li class="languages__type">Espanhol <span class="languages__level"> Intermediário</span>
-                            </li>
+                            <li>Inglês <span> Intermediário</span></li>
+                            <li>Espanhol <span> Intermediário</span></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <footer id="contato" class="footer">
-        <div class="footer__container">
-            <div class="footer__text">
+    <footer id="contato" class="rodape">
+        <div class="rodape__container">
+            <div class="rodape__texto">
                 <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa</p>
             </div>
-            <div class="footer__contact">
-
-                <a class="footer__network" href="https://www.linkedin.com/in/sergio-campos-mesquita-ba890731/"
-                    target="_blank"> <img src="img/linkedin-sign.svg" alt="Link do linkedin" /></a>
-
-                <a class="footer__network" href="https://www.github.com/scarfax/" target="_blank"> <img
-                        src="img/github-logo.svg" alt="Link do Github" /></a>
-
+            <div class="rodape__contato">
                 <ul>
-                    <li class="footer__email">sergiocm@oulook.com</li>
-                    <li class="footer__phone">+ 55 34 9999-6666</li>
+                    <li>sergiocm@oulook.com</li>
+                    <li>+ 55 34 9999-6666</li>
                 </ul>
-
             </div>
         </div>
-        <div class="footer__copyright">
-            <p>Sérgio Campos: Alguns direitos reservados.</p>
+        <div class="rodape__direitos">
+            <p>Sergio Campos: Alguns direitos reservados.</p>
         </div>
     </footer>
 </body>
