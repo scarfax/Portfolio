@@ -1,3 +1,10 @@
-* {
+@import url(reset.css);
+@import url(header.css);
+@import url(presentation.css);
+@import url(experience.css);
+@import url(formation.css);
+@import url(footer.css);
+
+body {
   font-family: "Roboto Condensed", sans-serif;
 }
